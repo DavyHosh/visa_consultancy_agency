@@ -2,11 +2,25 @@
 <html lang="en">
   <head>
     <title>Skyfinix Consultancy</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      @media only screen and (max-width: 600px) {
+        .visa-section .custom-col {
+          flex-basis: 100% !important;
+          margin-bottom: 20px;
+        }
+    
+        .visa-section .custom-col img {
+          width: 100% !important;
+          height: auto !important;
+        }
+      }
+    </style>
 	<script src="https://kit.fontawesome.com/c80a7ae3b4.js" crossorigin="anonymous"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" type="image/x-icon" href="images/logo.jpg">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-qZ9fPIz9FEXVekSjjbRnF9BLXt1KygTdn1bs9VsKk+3WpRu8jUhUJS72XpY3LvKVoCvOQ4QzktL7dhrpRcWGdQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
@@ -28,9 +42,11 @@
 	  <div class="bg-top navbar-light">
     	<div class="container">
     		<div class="row no-gutters d-flex align-items-center align-items-stretch">
-    			<div class="col-md-4 d-flex align-items-center py-4">
-    				<a class="navbar-brand" href="index.html">Skyfinix Consultancy</a>
-    			</div>
+    			<div class="col-md-4 d-flex align-items-center">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo_no_bg.png" alt="Skyfinix Consultancy Logo" class="img-fluid custom-logo">
+            </a>
+        </div>        
 	    		<div class="col-lg-8 d-block">
 		    		<div class="row d-flex">
 					    <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
@@ -43,14 +59,14 @@
 					    <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
 					    	<div class="icon d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
 						    <div class="text">
-						    	<span>Call</span>
-						    	<span>Call Us: +254 115160867</span>
+						    	<span>Call Us</span>
+						    	<span>+254 115160867</span>
 						    </div>
 					    </div>
 					    <div class="col-md topper d-flex align-items-center justify-content-end">
 					    	<p class="mb-0 d-block">
-					    		<a href="#" class="btn py-2 px-3 btn-primary">
-					    			<span>Free Consulting</span>
+					    		<a href="contact.html" class="btn py-2 px-3 btn-primary">
+					    			<span>Consult</span>
 					    		</a>
 					    	</p>
 					    </div>
@@ -85,7 +101,7 @@
     <!-- END nav -->
     
     <section class="home-slider owl-carousel" data-stellar-background-ratio="0.5">
-      <div class="slider-item" style="background-image:url(images/bg_1.jpg);">
+      <div class="slider-item" style="background-image:url(images/bg_1.jpg);"> <!--Image by prostooleh on Freepik-->
       	<div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
@@ -98,7 +114,7 @@
         </div>
       </div>
 
-      <div class="slider-item" style="background-image:url(images/bg_2.jpg);">
+      <div class="slider-item" style="background-image:url(images/bg_2.jpg);"> <!--Image by cookie_studio on Freepik-->
       	<div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
@@ -116,48 +132,131 @@
 
 <!-- Section for showcasing the agency's approach and services -->
 <!-- Visa Processing Section -->
-<section class="ftco-section" data-stellar-background-ratio="0.5">
-    <div class="container">
-        <div class="row justify-content-center mb-5 pb-2">
-            <div class="col-md-8 text-center heading-section ftco-animate">
-                <h2 class="mb-4">VISA PROCESSING</h2>
-                <p>Skyfinix Consultancy offers a broad suite of visa processing service offerings designed to securely manage visa applications and visa issuance. At Skyfinix Consultancy, the services are streamlined in the visa application lifecycle while providing flexibility for customization for each client.</p>
-                <p>Skyfinix Consultancy offers visa processing to immigrants to other countries, visitors to Kenya, business travel, and students visas. Skyfinix Consultancy's visa processing service will save you time, money, and effort. We do the job for you. We save you money through the special prices availed to us from our various business partners. The Skyfinix process, refined with experience, offloads you the struggle of visa application, frustration, and mystery out of applying for a visa.</p>
+<section class="ftco-section ftco-no-pb" data-stellar-background-ratio="0.5">
+  <div class="container">
+      <div class="row justify-content-center mb-5 pb-2">
+        <div class="col-md-5 wrap-about align-items-stretch">
+          <div class="wrap-about-border ftco-animate">           
+            <div class="img" style="background-image: url(images/visa_processing_image.jpg);"></div>
+            
+            <div class="text">
+              <p><a href="contact.html" class="btn btn-primary py-3 px-4">Contact us</a></p>
             </div>
+            
+          </div>
         </div>
-        <div class="row">
-            <div class="col-md-6 ftco-animate">
-                <!-- Image placeholder: Replace this with your image -->
-                <img src="images/visa_processing_image.jpg" alt="Visa Processing" class="img-fluid"> <!-- Image by macrovector on Freepik -->
-            </div>
-            <div class="col-md-6 ftco-animate">
-              <p><span style="color: #233e62;"><strong>a) Visa Guidance in Every Step</strong></span> <br>
-                We do ensure we guide you through every step in visa application. <br>
-                <span style="color: #233e62;"><strong>b) Fill in Visa Application Form</strong></span> <br>
-                We will help you fill all the required forms for a successful application. <br>
-                <span style="color: #233e62;"><strong>c) Submit Visa Application</strong></span> <br>
-                We will submit your visa application (to applicable Embassies). <br>
-                <span style="color: #233e62;"><strong>d) Share Tips on Visa Application</strong></span> <br>
-                We will regularly keep you updated on new visa application rules. <br>
-                <span style="color: #233e62;"><strong>e) Confirming details per Application Checklist</strong></span> <br>
-                Before visa application submission, we will countercheck as per the checklist. <br>
-                <span style="color: #233e62;"><strong>f) Tracking of Visa Application</strong></span> <br>
-                We do track your visa processing (where necessary).</p>
-            </div>
-        </div>
-    </div>
+          <div class="col-md-7 text-center heading-section ftco-animate">
+              <h2 class="mb-4">VISA PROCESSING</h2>
+              <p>Skyfinix Consultancy streamlines visa processing with a comprehensive suite of services. We securely manage applications and issuance, offering flexibility for customization. Our services cater to immigrants, visitors to Kenya, business travelers, and students. Save time, money, and effort with our efficient process. Benefit from special prices through our trusted partners, as our refined experience eliminates the struggles, frustrations, and mysteries associated with visa applications.</p>
+              <p>Skyfinix Consultancy offers visa processing for immigrants, visitors to Kenya, business travelers, and students. Our service saves you time, money, and effort, leveraging special prices from our business partners. Our refined process eliminates the struggles, frustrations, and mysteries of visa applications, offloading the burden from you.</p>
+          </div>
+      </div>      
+  </div>
 </section>
 
+<section class="visa">
+  <div class="container">
+      <div class="row">
+
+          <div class="section-title">
+              <h2> Passport References: </h2>
+          </div>
+
+          <div class="carousel-visa">
+              <div class="slide"><img src="images/canadian-passport.jpg" alt="Canadian Passport"></div>
+              <div class="slide"><img src="images/chinese-passport.png" alt="Chinese Passport"></div>
+              <div class="slide"><img src="images/australian-passport.jpg" alt="Australian Passport"></div>
+              <div class="slide"><img src="images/northandsouthamerica-passport.png" alt="North & South America Passport"></div>
+              <div class="slide"><img src="images/uk-passport.jpg" alt="United Kingdom Passport"></div>
+              <div class="slide"><img src="images/thailand-passport.jpg" alt="Thailand Passport"></div>
+              <div class="slide"><img src="images/schengen-passport.png" alt="Shengen Passport"></div>
+              <div class="slide"><img src="images/southafrican-passport.png" alt="South Africa Passport"></div>
+              <div class="slide"><img src="images/egyptian-passport.webp" alt="Egyptian Passport"></div>
+              <div class="slide"><img src="images/dubai-passport.png" alt="Dubai Passport"></div>
+              <div class="slide"><img src="images/rest-of-asia-passport.jpg" alt="Rest of Asian Passport"></div>
+              <div class="slide"><img src="images/rest-of-europe-passport.jpg" alt="Reast of Europe Passport"></div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section class="ftco-section ">
+  <div class="container">
+    <div class="row d-flex">
+      
+      <div class="col-md-12 wrap-about pr-md-4 ftco-animate">
+        <h2 class="mb-4 text-center">What we Do</h2>
+        <!--<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word.</p>
+        --><div class="row mt-5">
+          <div class="col-lg-4">
+            <div class="services active text-center">
+              <div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-handshake"></span></div>
+              <div class="text media-body">
+                <h3>Visa Guidance in Every Step</h3>
+                <p>We do ensure we guide you through every step in visa application.</p>
+              </div>
+            </div>
+            <div class="services text-center">
+              <div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-analysis"></span></div>
+              <div class="text media-body">
+                <h3>Fill in Visa Application Form</h3>
+                <p>We will help you fill all the required forms for a successful application.</p>
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-lg-4">
+           
+            <div class="services text-center">
+              <div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-analysis"></span></div>
+              <div class="text media-body">
+                <h3>Confirming details per Application Checklist</h3>
+                <p>Before visa application submission, we will countercheck as per the checklist.</p>
+              </div>
+            </div>
+            <div class="services active text-center">
+              <div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-handshake"></span></div>
+              <div class="text media-body">
+                <h3>Tracking of Visa Application</h3>
+                <p> We do track your visa processing (where necessary).</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="services active text-center">
+              <div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-analysis"></span></div>
+              <div class="text media-body">
+                <h3>Submit Visa Application</h3>
+                <p>We will submit your visa application (to applicable Embassies).</p>
+              </div>
+            </div>
+            <div class="services text-center">
+              <div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-handshake"></span></div>
+              <div class="text media-body">
+                <h3>Share Tips on Visa Application</h3>
+                <p>We will regularly keep you updated on new visa application rules.</p>
+              </div>
+            </div>
+            
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <!-- New content for "Visas We'll Help You Apply" -->
-<section class="ftco-section visa-section" style="position: relative; background-image: url(images/visas.jpg); background-size: cover; background-position: center center;" data-stellar-background-ratio="0.5"> <!--Image by macrovector on Freepik-->
+<!--<section class="ftco-section visa-section" style="position: relative; background-image: url(images/visas.jpg); background-size: cover; background-position: center center;" data-stellar-background-ratio="0.5"> <!--Image by macrovector on Freepik-->
+  <section class="ftco-section visa-section" style="position: relative;" data-stellar-background-ratio="0.5"> 
   <div class="container" style="position: relative; z-index: 2;">
-      <div class="row justify-content-center mb-5 pb-2">
+      <div class="row justify-content-center">
           <div class="custom-col col-md-8 text-center heading-section ftco-animate">
-              <h2 class="mb-4">VISAS WE'LL HELP YOU APPLY</h2>
+              <h2 class="mb-4 text-white text-center">VISAS WE'LL HELP YOU APPLY</h2>
           </div>
       </div>
       <div class="row justify-content-center">
-          <!-- First line: Canada, China, Australia, The Americas, United Kingdom -->
           <div class="custom-col col-md-2 text-center ftco-animate">
               <a href="https://www.canada.ca/en.html" target="_blank">
                   <img src="images/Canada.jpg" alt="Canada">
@@ -188,21 +287,21 @@
                   <p>United Kingdom</p>
               </a>
           </div>
+          <div class="custom-col col-md-2 text-center ftco-animate">
+            <a href="https://www.tourismthailand.org/" target="_blank">
+                <img src="images/Thailand.jpg" alt="Thailand">
+                <p>Thailand</p>
+            </a>
+        </div>
+        
       </div>
-      <div class="row justify-content-center">
-          <!-- Second line: Thailand, Schengen, South Africa, Egypt, Dubai -->
-          <div class="custom-col col-md-2 text-center ftco-animate">
-              <a href="https://www.tourismthailand.org/" target="_blank">
-                  <img src="images/Thailand.jpg" alt="Thailand">
-                  <p>Thailand</p>
-              </a>
-          </div>
-          <div class="custom-col col-md-2 text-center ftco-animate">
-              <a href="https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/schengen-area_en" target="_blank">
-                  <img src="images/Schengen.jpg" alt="Schengen">
-                  <p>Schengen</p>
-              </a>
-          </div>
+      <div class="row justify-content-center">         
+        <div class="custom-col col-md-2 text-center ftco-animate">
+          <a href="https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/schengen-area_en" target="_blank">
+              <img src="images/Schengen.jpg" alt="Schengen">
+              <p>Schengen</p>
+          </a>
+      </div>
           <div class="custom-col col-md-2 text-center ftco-animate">
               <a href="http://www.gov.za/" target="_blank">
                   <img src="images/south_africa.jpg" alt="South Africa">
@@ -221,27 +320,73 @@
                   <p>Dubai</p>
               </a>
           </div>
-      </div>
-      <div class="row justify-content-center">
-          <!-- Third line: Rest of Asia, Rest of Europe -->
           <div class="custom-col col-md-2 text-center ftco-animate">
-              <a href="https://www.malaysia.travel/" target="_blank">
-                  <img src="images/Asia.jpg" alt="Rest of Asia">
-                  <p>Rest of Asia</p>
-              </a>
-          </div>
-      <div class="empty-col col-md-2"></div> <!-- Empty column below Schengen -->
-      <div class="empty-col col-md-2"></div> <!-- Empty column below South Africa -->
-      <div class="empty-col col-md-2"></div> <!-- Empty column below Egypt -->
-          <div class="custom-col col-md-2 text-center ftco-animate rest-of-europe">
-              <a href="https://visiteurope.com/en/" target="_blank">
-                  <img src="images/Europe.jpg" alt="Rest of Europe">
-                  <p>Rest of Europe</p>
-              </a>
-          </div>
+            <a href="https://www.malaysia.travel/" target="_blank">
+                <img src="images/Asia.jpg" alt="Rest of Asia">
+                <p>Rest of Asia</p>
+            </a>
+        </div>
+    
+        <div class="custom-col col-md-2 text-center ftco-animate rest-of-europe">
+            <a href="https://visiteurope.com/en/" target="_blank">
+                <img src="images/Europe.jpg" alt="Rest of Europe">
+                <p>Rest of Europe</p>
+            </a>
+        </div>
       </div>
+      
   </div>
   <div class="background-overlay" style="background-color: #007bff; opacity: 0.5; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;"></div>
+</section>
+<section class="ftco-section ftco-no-pb">
+  <div class="container-fluid px-0">
+    <div class="row no-gutters justify-content-center mb-5">
+      <div class="col-md-7 text-center heading-section ftco-animate">
+        <h2 class="mb-4">Our Services</h2>
+        <p>Empowering Success, One Consultation at a Time: Skyfinix Consultancy, Your Strategic Partner in Progress.</p>
+        <p></p>
+      </div>
+    </div>
+    <div class="row no-gutters">
+      <div class="col-md-3">
+        <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/services3.jpg);">
+          <div class="overlay"></div>
+          <a href="#" class="btn-site d-flex align-items-center justify-content-center"><span class="icon-subdirectory_arrow_right"></span></a>
+          <div class="text text-center p-4">
+            <h3><a href="#">Skilled Migrant Visas</a></h3>            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/business5.png);">
+          <div class="overlay"></div>
+          <a href="#" class="btn-site d-flex align-items-center justify-content-center"><span class="icon-subdirectory_arrow_right"></span></a>
+          <div class="text text-center p-4">
+            <h3><a href="#">Business/Investor visas</a></h3>            
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/services7.png);">
+          <div class="overlay"></div>
+          <a href="#" class="btn-site d-flex align-items-center justify-content-center"><span class="icon-subdirectory_arrow_right"></span></a>
+          <div class="text text-center p-4">
+            <h3><a href="#">Work Permits/Visas</a></h3>            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/services1.jpg);">
+          <div class="overlay"></div>
+          <a href="#" class="btn-site d-flex align-items-center justify-content-center"><span class="icon-subdirectory_arrow_right"></span></a>
+          <div class="text text-center p-4">
+            <h3><a href="#">Student Visas</a></h3>            
+          </div>
+        </div>
+      </div>  
+    </div>
+  </div>
 </section>
 
 <!-- Content about immigration -->
@@ -254,94 +399,149 @@
       </div>
     </div>
 
-    <div class="row">
-      <!-- Immigration Services Container -->
-      <div class="col-md-4 ftco-animate">
-        <div class="services-container" style="border: 2px solid #0056b3; padding: 20px; height: 400px; display: flex; flex-direction: column;">
-          <h3 class="mb-4">Immigration Services</h3>
-          <ul class="services-list">
-            <li>- Skilled Migrant Visas</li>
-            <li>- Business/Investor visas</li>
-            <li>- Work Permits/Visas</li>
-            <li>- Family Reunion Visas</li>
-            <li>- Student Visas</li>
-          </ul>
+    <div class="row content-container">
+      <!-- Left Services Container -->
+      <div class="col-md-4 text-container">
+        <div class="services-container">
+          <div class="service-box" style="background-color: #02057e;">
+            <i class="fas fa-passport passport-icon"></i>
+            <h3 style="color: #fff;">Passport Renewals</h3>
+          </div>
+          <div class="service-box" style="background-color: #e5c54a;">
+            <i class="fas fa-sync-alt passport-icon"></i>
+            <h3>New Passports</h3>
+          </div>
+          <div class="service-box" style="background-color: #589ce3;">
+            <i class="fas fa-child passport-icon"></i>
+            <h3>Children Passports</h3>
+          </div>
+          <div class="service-box" style="background-color: #02057e;">
+            <i class="fas fa-search passport-icon"></i>
+            <h3 style="color: #fff;">Lost Passports</h3>
+          </div>
         </div>
       </div>
-
+    
       <!-- Middle Image Container -->
-      <div class="col-md-4 ftco-animate">
-        <img src="images/logo.jpg" alt="Middle Image" class="img-fluid" style="height: 400px; object-fit: fit;">
+      <div class="col-md-4 mb-4 image-container ftco-animate">
+        <img src="images/services2.jpg" alt="Middle Image">
       </div>
-
-      <!-- Passport Services Container -->
-      <div class="col-md-4 ftco-animate">
-        <div class="services-container" style="border: 2px solid #0056b3; padding: 20px; height: 400px; display: flex; flex-direction: column;">
-          <h3>Passport Services</h3>
-          <p>Our passport portfolio services include:</p>
-          <ul class="services-list">
-            <li>- Passport Renewals</li>
-            <li>- New Passports</li>
-            <li>- Children Passports</li>
-            <li>- Lost Passports</li>
-            <li>- Stolen Passports</li>
-            <li>- Damaged Passports</li>
-            <li>- Passport Name Change</li>
-            <li>- Second Passport</li>
-            <li>- Adding Pages to the Passport</li>
-          </ul>
+    
+      <!-- Right Services Container -->
+      <div class="col-md-4 text-container">
+        <div class="services-container">
+          <div class="service-box" style="background-color: #02057e;">
+            <i class="icon fas fa-fingerprint"></i>
+            <h3 style="color: #fff;">Stolen Passports</h3>
+          </div>
+          <div class="service-box" style="background-color: #e5c54a;">
+            <i class="icon fas fa-exclamation-triangle"></i>
+            <h3>Damaged Passports</h3>
+          </div>
+          <div class="service-box" style="background-color: #589ce3;">
+            <i class="icon fas fa-id-card"></i>
+            <h3>Passport Name Change</h3>
+          </div>
+          <div class="service-box" style="background-color: #02057e;">
+            <i class="icon fas fa-passport"></i>
+            <h3 style="color: #fff;">Second Passport</h3>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+    
+    <!-- "Adding Pages to the Passport" box immediately below the image -->
+    <div class="row">
+      <div class="col-md-12 d-flex justify-content-center">
+        <div class="text-container">
+          <div class="services-container">
+            <div class="service-box" style="background-color: #02057e;">
+              <i class="icon fas fa-file"></i>
+              <h3 style="color: #fff;">Adding Pages to the Passport</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>    
 </section>
 
 
-<!-- Content about air-ticketing -->
-<section id="uniqueAirTicketing" class="ftco-section unique-custom-section" style="position: relative; background-image: url(images/air-ticketing.png);" data-stellar-background-ratio="0.5">
+<section class="ftco-section air-ticketing-container ftco-consult ftco-no-pt ftco-no-pb" style="background-image: url(images/ticket-bg.jpg);" data-stellar-background-ratio="0.5">
   <div class="overlay"></div>
-  <div class="container" style="position: relative; z-index: 2;">
-      <div class="row justify-content-center mb-5 pb-2">
-          <div class="col-md-8 text-center heading-section ftco-animate" style="color: white; position: relative; z-index: 3;">
-              <h2 class="mb-4">AIR-TICKETING</h2>
-              <p>Skyfinix Consultancy utilizes the latest technological innovations for air-ticketing. Explore our services for competitive quotations, personalized travel consultations, and more.</p>
-          </div>
-      </div>
-      <div class="row">
-          <div class="col-md-6 ftco-animate" style="color: white;">
-              <p>Our reservation system is fully computerized, allowing us access to AMADEUS and GALILEO databases. We provide competitive quotations from different airlines, ensuring the best options for our clients.</p>
-          </div>
-          <div class="col-md-6 ftco-animate" style="color: white;">
-              <p>When responding to requests, we also advise on Visa requirements, Travel Insurance, Hotel Availability, Security Situation, Yellow Fever and Cholera Requirements, and Passport Validity.</p>
-          </div>
-      </div>
-  </div>
-  <div class="background-overlay" style="background-color: #007bff; opacity: 0.5; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;"></div>
+  <div class="container ftco-animate">
+    <div class="row heading-section">
+        <div class="col-md-12">
+            <h2 class="mb-4 text-center text-white">AIR-TICKETING</h2>
+            <p class="text-white text-center">Skyfinix Consultancy utilizes the latest technological innovations for air-ticketing. Explore our services for:</p>
+        </div>
+    </div>
+    <div class="row text-white">
+        <div class="col-md-6 ftco-animate mb-4">
+            <p><i class="icon">&#128201;</i> Competitive quotations from different airlines</p>
+            <p><i class="icon">&#128187;</i> Personalized travel consultations</p>
+            <p><i class="icon">&#127759;</i> Access to AMADEUS and GALILEO databases</p>
+            <p><i class="icon">&#128200;</i> Best options for our clients</p>
+            <p><i class="icon">&#128197;</i> Passport Validity verification</p>
+        </div>
+        <div class="col-md-6 ftco-animate">
+            <p><i class="icon">&#9992;</i> Visa requirements advisory</p>
+            <p><i class="icon">&#128197;</i> Travel Insurance information</p>
+            <p><i class="icon">&#127976;</i> Hotel Availability check</p>
+            <p><i class="icon">&#128272;</i> Security Situation evaluation</p>
+            <p><i class="icon">&#128710;</i> Yellow Fever and Cholera Requirements</p>
+            
+        </div>
+    </div>
+</div>
 </section>
+<!-- Content about air-ticketing -->
 
 <!-- Why choose Skyfinix Consultancy -->
 <section class="ftco-section">
-    <div class="container">
-        <div class="row justify-content-center mb-5 pb-2">
-            <div class="col-md-8 text-center heading-section ftco-animate">
-                <h2 class="mb-4">WHY CHOOSE SKYFINIX CONSULTANCY?</h2>
-                <p>Explore the reasons to choose Skyfinix Consultancy for your visa and travel needs.</p>
+  <div class="why-section">
+    <div class="row justify-content-center mb-5 pb-2">
+      <div class="col-md-8 text-center heading-section ftco-animate">
+          <h2 class="mb-4 special-heading">WHY CHOOSE SKYFINIX CONSULTANCY?</h2>
+      </div>
+  </div>
+    <div class="box">
+        <div class="root1">
+            <div class="sec1">
+                <span class="circle">
+                    <i class="fa-solid fa-globe-americas fa-3x" style="color: #ffffff"></i>
+                </span><br>
+                <h1>GLOBAL REACH</h1>
+                <p>Explore visa opportunities worldwide with our extensive network.</p>
+            </div>
+            <div class="sec2">
+                <span class="circle">
+                    <i class="fa-solid fa-file-alt fa-3x" style="color: #ffffff"></i>
+                </span><br>
+                <h1>DOCUMENTATION</h1>
+                <p>We handle all documentation processes to make your visa application hassle-free.</p>
             </div>
         </div>
-        <div class="row">
-            <!-- List of reasons to choose Skyfinix Consultancy -->
-            <div class="col-md-6 ftco-animate">
-              <ul class="services-list">
-                <strong><span style="color: #233e62;">• Quality Assurance:</span></strong> At Skyfinix Consultancy, quality is meeting customer requirements.<br>
-                <strong><span style="color: #233e62;">• Customer Profile Generation:</span></strong> We obtain valuable information about our customers through surveys to target our services more effectively.<br>
-                <strong><span style="color: #233e62;">• Customer Complaints:</span></strong> We handle customer complaints effectively to ensure customer satisfaction.<br>
-            </ul>            
+        <div class="root2">
+            <img src="https://cdn.pixabay.com/photo/2020/03/24/03/35/man-4962668_960_720.png" alt="visa consultant">
+        </div>
+        <div class="root3">
+            <div class="sec3">
+                <span class="circle">
+                    <i class="fa-solid fa-handshake fa-3x" style="color: #ffffff"></i>
+                </span><br>
+                <h1>PERSONALIZED SERVICE</h1>
+                <p>Get dedicated support tailored to your individual visa requirements.</p>
             </div>
-            <div class="col-md-6 ftco-animate">
-                <p>Customers are the most important element of any business, and we aim to address their needs effectively. Our availability on a 24-hour basis ensures timely responses to client requests.</p>
+            <div class="sec4">
+                <span class="circle">
+                    <i class="fa-solid fa-calendar-check fa-3x" style="color: #ffffff"></i>
+                </span><br>
+                <h1>EFFICIENT PROCESS</h1>
+                <p>Experience a streamlined and efficient visa application process with us.</p>
             </div>
         </div>
     </div>
+</div>
 </section>
 
 <!-- End of the visa consultancy agency content -->
@@ -443,59 +643,89 @@
 		</section> -->
 
 
-    <section class="ftco-section ftco-consult ftco-no-pt ftco-no-pb" style="background-image: url(images/bg_5.jpg);" data-stellar-background-ratio="0.5">
-    	<div class="overlay"></div>
-    	<div class="container">
-    		<div class="row justify-content-end">
-    			<div class="col-md-6 py-5 px-md-5">
-    				<div class="py-md-5">
-		          <div class="heading-section heading-section-white ftco-animate mb-5">
-		            <h2 class="mb-4">Request A Quote</h2>
-		            <p>Your visa solutions, tailored for you. Empowering journeys, one visa at a time.</p>
-		          </div>
-		          <form action="#" class="appointment-form ftco-animate">
-		    				<div class="d-md-flex">
-			    				<div class="form-group">
-			    					<input type="text" class="form-control" placeholder="First Name">
-			    				</div>
-			    				<div class="form-group ml-md-4">
-			    					<input type="text" class="form-control" placeholder="Last Name">
-			    				</div>
-		    				</div>
-		    				<div class="d-md-flex">
-		    					<div class="form-group">
-			    					<div class="form-field">
-		        					<div class="select-wrap">
-		                    <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-		                    <select name="" id="" class="form-control">
-		                    	<option value="">Select Guidance</option>
-		                      <option value="">Skilled Migrant Visas</option>
-		                      <option value="">Business/Investor visas</option>
-		                      <option value="">Work Permits/Visas</option>
-		                      <option value="">Family reunion visas</option>
-		                      <option value="">Student Visas</option>
-		                    </select>
-		                  </div>
-			              </div>
-			    				</div>
-		    					<div class="form-group ml-md-4">
-			    					<input type="text" class="form-control" placeholder="Phone">
-			    				</div>
-		    				</div>
-		    				<div class="d-md-flex">
-		    					<div class="form-group">
-			              <textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Message"></textarea>
-			            </div>
-			            <div class="form-group ml-md-4">
-			              <input type="submit" value="Request A Quote" class="btn btn-white py-3 px-4">
-			            </div>
-		    				</div>
-		    			</form>
-		    		</div>
-    			</div>
-        </div>
-    	</div>
-    </section>
+    <section class="ftco-section ftco-consult ftco-no-pt ftco-no-pb" style="background-image: url(images/isometric.png);" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+          <div class="row justify-content-end">
+              <div class="col-md-6 py-5 px-md-5">
+                  <div class="py-md-5">
+                      <div class="heading-section heading-section-white ftco-animate mb-5">
+                          <h2 class="mb-4">Request A Quote</h2>
+                          <p>Your visa solutions, tailored for you. Empowering journeys, one visa at a time.</p>
+                      </div>
+                      <form action="#" method="post" class="appointment-form ftco-animate">
+                        <div class="d-md-flex">
+                            <div class="form-group ml-md-4">
+                                <input type="text" name="first_name" class="form-control" placeholder="First Name">
+                            </div>
+                            <div class="form-group ml-md-4">
+                                <input type="text" name="last_name" class="form-control" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="d-md-flex">                            
+                            <div class="form-group ml-md-4">
+                              <input type="email" name="email" class="form-control" placeholder="Email">                              
+                            </div>
+                            <div class="form-group ml-md-4">
+                                <input type="text" name="phone" class="form-control" placeholder="Phone">
+                            </div>
+                        </div>
+                        <div class="d-md-flex">
+                            <div class="form-group ml-md-4">
+                                <div class="select-wrap">
+                                    <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                                    <select name="country" id="" class="form-control">
+                                        <option value="">Select Country</option>
+                                        <option value="Canada">Canada</option>
+                                        <option value="China">China</option>
+                                        <option value="Australia">Australia</option>
+                                          <option value="North & South America">North & South America</option>
+                                          <option value="United Kingdom">United Kingdom</option>
+                                          <option value="Thailand">Thailand</option>
+                                          <option value="Schengen">Schengen</option>
+                                          <option value="South Africa">South Africa</option>
+                                          <option value="Egypt">Egypt</option>
+                                          <option value="Dubai">Dubai</option>
+                                          <option value="Rest of Asia">Rest of Asia</option>
+                                          <option value="Rest of Europe">Rest of Europe</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group ml-md-4">
+                              <div class="form-field">
+                                  <div class="select-wrap">
+                                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                                      <select name="guidance" id="" class="form-control">
+                                          <option value="">Select Guidance</option>
+                                          <option value="Skilled Migrant Visas">Skilled Migrant Visas</option>
+                                          <option value="Business/Investor visas">Business/Investor visas</option>
+                                          <option value="Work Permits/Visas">Work Permits/Visas</option>
+                                          <option value="Family reunion visas">Family reunion visas</option>
+                                          <option value="Student Visas">Student Visas</option>
+                                      </select>
+                                  </div>
+                              </div>
+                          </div>
+                           
+                        </div>
+                        <div class="d-md-flex">
+                          <div class="form-group ml-md-4">
+                            <textarea name="message" cols="30" rows="2" class="form-control" placeholder="Message"></textarea>
+                          </div>
+                        </div>                      
+                        
+                        <div class="d-md-flex">
+                            <div class="form-group ml-md-4">
+                                <input type="submit" value="Request A Quote" class="btn btn-white py-3 px-4">
+                            </div>
+                        </div>
+                    </form>
+                    
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
 
 	<!--<section class="ftco-section bg-light">
 			<div class="container">
@@ -576,12 +806,12 @@
 			</div>
 		</section> -->
 
-	 <!--<section class="ftco-section testimony-section">
+	 <section class="ftco-section testimony-section">
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-8 text-center heading-section ftco-animate">
-            <h2 class="mb-4">Our Clients Says</h2>
-            <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+            <h2 class="mb-4">Our Clients Say</h2>
+            <p>Discover the stories of success from our satisfied clients who entrusted their visa journeys with Skyfinix Consultancy.</p>
           </div>
         </div>
         <div class="row ftco-animate justify-content-center">
@@ -589,71 +819,71 @@
             <div class="carousel-testimony owl-carousel">
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img" style="background-image: url(images/person_1.jpg)">
+                  <div class="user-img" style="background-image: url(images/person_5.jpg)"> <!--Image by Freepik</a>-->
                   </div>
                   <div class="text pl-4">
                   	<span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Racky Henderson</p>
-                    <span class="position">Father</span>
+                    <p>Choosing Skyfinix was the best decision for my visa. Their commitment to excellence shines through in every step.</p>
+                    <p class="name">Terry Wambua</p>
+                    <span class="position">Student</span>
                   </div>
                 </div>
               </div>
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img" style="background-image: url(images/person_2.jpg)">
+                  <div class="user-img" style="background-image: url(images/person_2.jpg)"> <!--Image by wayhomestudio on Freepik-->
                   </div>
                   <div class="text pl-4">
                   	<span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Henry Dee</p>
+                    <p>The personalized service at Skyfinix made all the difference in my visa application. Success feels amazing!</p>
+                    <p class="name">Peter Muriithi</p>
+                    <span class="position">Businessman</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap d-flex">
+                  <div class="user-img" style="background-image: url(images/person_3.jpg)"> <!--Image by pch.vector on Freepik-->
+                  </div>
+                  <div class="text pl-4">
+                  	<span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                    <p>Exceptional service and a dedicated team at Skyfinix. They made my visa application stress-free and successful.</p>
+                    <p class="name">Robin Kaari</p>
                     <span class="position">Businesswoman</span>
                   </div>
                 </div>
               </div>
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img" style="background-image: url(images/person_3.jpg)">
+                  <div class="user-img" style="background-image: url(images/person_4.jpg)"> <!--Image by rawpixel.com on Freepik-->
                   </div>
                   <div class="text pl-4">
                   	<span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Mark Huff</p>
+                    <p>Navigating the visa process was a breeze with Skyfinix. They truly care about their clients' success.</p>
+                    <p class="name">Rhoda Wabwire</p>
                     <span class="position">Businesswoman</span>
                   </div>
                 </div>
               </div>
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img" style="background-image: url(images/person_4.jpg)">
+                  <div class="user-img" style="background-image: url(images/person_1.jpg)"> <!--Image by Freepik</a>-->
                   </div>
                   <div class="text pl-4">
                   	<span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Rodel Golez</p>
-                    <span class="position">Businesswoman</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap d-flex">
-                  <div class="user-img" style="background-image: url(images/person_1.jpg)">
-                  </div>
-                  <div class="text pl-4">
-                  	<span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Ken Bosh</p>
-                    <span class="position">Businesswoman</span>
+                    <p>Thanks to Skyfinix, my visa journey was smooth and efficient. Highly recommend their expert services!</p>
+                    <p class="name">Kennedy Njahi</p>
+                    <span class="position">Businessman</span>
                   </div>
                 </div>
               </div>
@@ -661,7 +891,7 @@
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
 
 		
     <footer class="ftco-footer ftco-bg-dark ftco-section">
@@ -682,44 +912,42 @@
           </div>
 		  <div class="col-md-6 col-lg-3">
 			<div class="ftco-footer-widget mb-5">
-				<h2 class="ftco-heading-2">Popular Destinations</h2>
+				<h2 class="ftco-heading-2">Services</h2>
 				<div class="block-21 mb-4 d-flex">
-					<a class="blog-img mr-4" style="background-image: url(images/destination_1.jpg);"></a> <!--Image by macrovector on Freepik-->
+					<a class="blog-img mr-4" style="background-image: url(images/visas.jpg);"></a> <!--Image by macrovector on Freepik-->
 					<div class="text">
-						<h3 class="heading"><a href="https://www.france.fr/en/places-to-go" target="_blank">Paris, France</a></h3>
-						<p>Explore the romantic charm of Paris with our visa assistance services. Discover iconic landmarks and cultural delights.</p>
+						<h3 class="heading"><a href="#" target="_blank">Passport</a></h3>
+						
 					</div>
 				</div>
 				<div class="block-21 mb-5 d-flex">
-					<a class="blog-img mr-4" style="background-image: url(images/destination_2.jpg);"></a> <!--Image by tawatchai07 on Freepik-->
+					<a class="blog-img mr-4" style="background-image: url(images/visastamp.jpg);"></a> <!--Image by tawatchai07 on Freepik-->
 					<div class="text">
-						<h3 class="heading"><a href="https://tokyotokyo.jp/home/" target="_blank">Tokyo, Japan</a></h3>
-						<p>Experience the vibrant culture and modern wonders of Tokyo. Let us assist you in making your trip memorable.</p>
+						<h3 class="heading"><a href="#" target="_blank">Visa</a></h3>						
 					</div>
 				</div>
 			</div>
-		</div>
-		
+		</div>		
 		
           <div class="col-md-6 col-lg-3">
             <div class="ftco-footer-widget mb-5 ml-md-4">
               <h2 class="ftco-heading-2">Links</h2>
               <ul class="list-unstyled">
-                <li><a href="index.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
-                <li><a href="about.html"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
-                <li><a href="services.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Services</a></li>
-             <!-- <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Projects</a></li> -->
-                <li><a href="contact.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
-              </ul>
+                <li><a href="index.html" target="_blank"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
+                <li><a href="about.html" target="_blank"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
+                <li><a href="services.html" target="_blank"><span class="ion-ios-arrow-round-forward mr-2"></span>Services</a></li>
+                <!-- <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Projects</a></li> -->
+                <li><a href="contact.html" target="_blank"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
+            </ul>            
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="ftco-footer-widget mb-5">
-            	<h2 class="ftco-heading-2">Subscribe!</h2>
+            	<h2 class="ftco-heading-2">Quick Connect</h2>
               <form action="#" class="subscribe-form">
                 <div class="form-group">
                   <input type="text" class="form-control mb-2 text-center" placeholder="Enter email address">
-                  <input type="submit" value="Subscribe" class="form-control submit px-3">
+                  <input type="submit" value="Connect" class="form-control submit px-3">
                 </div>
               </form>
             </div>
@@ -739,7 +967,7 @@
           <div class="col-md-12 text-center">
 
             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Designed <i class="icon-heart" aria-hidden="true"></i> by <a href="https://ibringhub.com" target="_blank">Ibring Hub</a>
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
           </div>
         </div>
@@ -767,6 +995,20 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-    
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script>
+        /**********************/
+        /*    Visa carousel   */
+        /**********************/
+        $('.carousel-visa').bxSlider({
+            auto: true,
+            slideWidth: 234,
+            minSlides: 2,
+            maxSlides: 5,
+            controls: false
+        });
+    </script>  
   </body>
 </html>
